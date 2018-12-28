@@ -10,7 +10,7 @@ import Global from './utils/Global';
 // -------------------------------------------------------------------- configuration
 Global.bot = new Discord.Client();
 
-Global.bot.login(config.token);
+Global.bot.login(process.env.token);
 
 async function onExit() {
   console.log(chalk.yellow('\nVanityBOT s\'est correctement arrêté'));
