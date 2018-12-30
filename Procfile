@@ -1,1 +1,1 @@
-worker: node G:/iPraBOT/dist/index.js
+worker: node ./dist/app.js
